@@ -28,21 +28,21 @@ def main():
     match priority:
         case 'high':
             if time_bound == 'yes':
-                print(f"\nReminder: '{task}' is a high priority task that requires immediate attention today!")
+                print(f"Reminder: '{task}' is a high priority task that requires immediate attention today!")
             else:
-                print(f"\nReminder: '{task}' is a high priority task. Make sure to complete it today!")
+                print(f"Reminder: '{task}' is a high priority task. Make sure to complete it today!")
         
         case 'medium':
             if time_bound == 'yes':
-                print(f"\nReminder: '{task}' is a medium priority task that requires immediate attention today!")
+                print(f"Reminder: '{task}' is a medium priority task that requires immediate attention today!")
             else:
-                print(f"\nNote: '{task}' is a medium priority task. Try to complete it soon.")
+                print(f"Note: '{task}' is a medium priority task. Try to complete it soon.")
         
         case 'low':
             if time_bound == 'yes':
-                print(f"\nReminder: '{task}' is a low priority task that requires immediate attention today!")
+                print(f"Reminder: '{task}' is a low priority task that requires immediate attention today!")
             else:
-                print(f"\nNote: '{task}' is a low priority task. Consider completing it when you have free time.")
+                print(f"Note: '{task}' is a low priority task. Consider completing it when you have free time.")
     
     # Optional: Ask if user wants to set another reminder
     while True:
