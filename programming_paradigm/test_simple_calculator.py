@@ -58,7 +58,7 @@ class TestSimpleCalculator(unittest.TestCase):
         # Large numbers
         self.assertEqual(self.calc.subtract(5000000, 2000000), 3000000)
 
-    def test_multiply(self):
+    def test_multiplication(self):
         """Test the multiplication method with various scenarios."""
         # Basic multiplication
         self.assertEqual(self.calc.multiply(3, 4), 12)
@@ -85,7 +85,7 @@ class TestSimpleCalculator(unittest.TestCase):
         # Large numbers
         self.assertEqual(self.calc.multiply(1000, 2000), 2000000)
 
-    def test_divide(self):
+    def test_division(self):
         """Test the division method with various scenarios."""
         # Basic division
         self.assertEqual(self.calc.divide(10, 2), 5.0)
